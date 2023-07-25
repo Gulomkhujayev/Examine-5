@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fill {
+  background-color: gray;
+  position: relative;
+  width: 150px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  /* padding: 10px; */
+  border-radius: 15px;
+}
+
+.hold {
+  border: solid 5px #303030;
+  border-radius: 10px;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 200px;
+  height: 80px;
+  /* border: solid 3px black; */
+  border-radius: 15px;
+  background-color: gray;
+
+}
+
+.hovered {
+  background: gray;
+  border-style: solid;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  background: #303030;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
